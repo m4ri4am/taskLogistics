@@ -1,0 +1,32 @@
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure no overflow */
+body,
+html,
+#app {
+  padding: 0px !important;
+  margin: 0px !important;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.sub-header-color {
+  color: rgb(167, 167, 167);
+}
+
+.el-input__wrapper {
+  border-radius: 15px !important;
+  /* background: #f1f1f1 !important; */
+}
+
+/* .el-input__wrapper > .el-input__inner {
+  padding: 17px !important;
+} */
+
+.custom-header {
+  background-color: #1198b826 !important;
+  /* padding: 17px !important; */
+  /* border-radius: 17px; */
+}
